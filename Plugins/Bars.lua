@@ -177,14 +177,14 @@ BigWigsBars.defaultDB = {
 	posy = nil,
 	emphasize = true,
 	emphasizeMove = true,
-	emphasizeFlash = true,
+	emphasizeFlash = false,
 	emphasizePosX = nil,
 	emphasizePosY = nil,
-	emphasizeScale = 1.2,
+	emphasizeScale = 1,
 	emphasizeGrowup = false,
-	duration = 0.5,
-	width = nil,
-	height = nil,
+	duration = 0,
+	width = 200,
+	height = 22,
 	reverse = nil,
 	intervalbar = true,
 }
@@ -637,7 +637,7 @@ function BigWigsBars:BigWigs_StartBar(module, text, time, icon, otherc, c1, c2, 
 		self:SetCandyBarHeight(id, self.db.profile.height)
 	end
 
-	self:SetCandyBarFade(id, .5)
+	self:SetCandyBarFade(id, 0)
 	if self.db.profile.reverse then
 		self:SetCandyBarReversed(id, self.db.profile.reverse)
 	end
