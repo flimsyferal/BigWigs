@@ -1400,7 +1400,7 @@ function CandyBar:AcquireBarFrame(name)
 
 	local color = CandyBar.var.handlers[name].color or CandyBar.var.defaults.color
 	local bgcolor = CandyBar.var.handlers[name].bgcolor or CandyBar.var.defaults.bgcolor
-	local icon = CandyBar.var.handlers[name].icon or nil
+	local icon = nil
 	local texture = CandyBar.var.handlers[name].texture or CandyBar.var.defaults.texture
 	local width = CandyBar.var.handlers[name].width or CandyBar.var.defaults.width
 	local height = CandyBar.var.handlers[name].height or CandyBar.var.defaults.height
