@@ -183,8 +183,8 @@ BigWigsBars.defaultDB = {
 	emphasizeScale = 1,
 	emphasizeGrowup = false,
 	duration = 0,
-	width = 200,
-	height = 24,
+	width = 210,
+	height = 26,
 	reverse = nil,
 	intervalbar = true,
 }
